@@ -4,12 +4,14 @@
 >
 > - 标题：<u>SoK: History is a Vast Early Warning System: Auditing the Provenance of System Intrusions</u>
 > - 会议/期刊：<u>S&P 2023</u>
-> 
->---
-> 
->###### 内容概述
-> 
->- 总结了基于数据出处的日志审计相关技术的最新文献
+> - 作者
+>     <left><img src="all_Attachments/image-20231030182903780.png" alt="image-20231030182903780" style="zoom:33%;" />
+>
+> ---
+>
+> ###### 概述
+>
+> - 总结了基于数据出处的日志审计相关技术的最新文献
 > - 将整个日志审计流水线进行了分层，总结了每一层当前的一些成果、挑战、未来的工作方向
 > - 对日志数据 reduce 层（压缩存储）的一些成果进行了横向的 evaluation
 > - 提出了一些未来的研究方向

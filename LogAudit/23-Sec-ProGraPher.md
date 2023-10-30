@@ -4,7 +4,7 @@
 >
 > - 标题：<u>PROGRAPHER: An Anomaly Detection System based on Provenance Graph Embedding</u>
 >
-> - 会议/期刊：<u>USENIX security 2023</u>
+> - 会议/期刊：<u>USENIX Security 2023</u>
 >
 > - 作者
 >     <left><img src="all_Attachments/image-20231028165339840.png" alt="image-20231028165339840" style="zoom:33%;" />
@@ -12,10 +12,12 @@
 >
 > ---
 >
-> ###### 内容概述
+> ###### 概述
 >
 > - 基于学习的、图级的检测，按时间顺序提取日志的快照进行分析，识别异常快照（子图），并指出与攻击相关的实体。
 > - 四个组件
+>     <left><img src="all_Attachments/image-20231030181647188.png" alt="image-20231030181647188" style="zoom: 33%;" />
+>     
 >     - snapshot builder：按时间戳将日志对应的 provenance graph 分割成多个快照，相邻快照之间具有一定重叠
 >         - 缩小每次所分析的日志的规模
 >         - 考虑快照之间的动态变化信息

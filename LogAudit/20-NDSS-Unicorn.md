@@ -11,9 +11,11 @@
 >
 > ---
 >
-> ###### 内容概述
+> ###### 概述
 >
 > - learning-based、图级的 APT 检测
+>     <left><img src="all_Attachments/image-20231030181818287.png" alt="image-20231030181818287" style="zoom:50%;" />
+>     
 >     1. 输入：CamFlow 提供的流式日志数据
 >         - CamFlow：一个运行在 LSM 框架上的信息流追踪工具，类似 Linux Audit、Windows ETW 等，为 UNICORN 提供流式的数据出处日志
 >     2. 构建一个流式的直方图，代表系统的执行历史信息
