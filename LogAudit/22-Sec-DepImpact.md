@@ -15,7 +15,7 @@
 >
 > <left><img src="all_Attachments/image-20231015205815009.png" alt="image-20231015205815009" style="zoom: 50%;" />
 >
-> - 开发了名为 DepImpact 的分析框架，能够在传统后向因果分析产生的因果图（十分巨大）中识别出 Critical Component（与 POI 相关性更强的部分），即提取出原始的、巨大的因果图中真正关键的信息，辅助攻击调查；
+> - 开发了名为 DepImpact 的分析框架，在传统后向因果分析产生的完整因果图中识别出 Critical Component（与 POI 相关性更强的部分），即提取出原始的、巨大的因果图中真正关键的信息，辅助攻击调查；
 >    1. 从 POI 开始进行传统的后向因果分析，产生一个初始的因果图 $P$ ；
 >     2. 考虑边的 3 种属性（时序、数据大小、度），计算各个边与 POI 的 Dependency Weight；
 >     3. 根据新增了 Dependency Weight 的 Dependency graph，从 POI 开始进行后向传递：考虑每个边的 Dependency Weight，从 POI 开始向后 “传递” POI 与每个结点的 “关联度”，最终计算得到每个 Entry node（Dependency graph 中没有入边的节点）与 POI 的 “关联度”；

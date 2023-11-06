@@ -15,7 +15,7 @@
 >
 > - learning-based、图级的 APT 检测
 >     <left><img src="all_Attachments/image-20231030181818287.png" alt="image-20231030181818287" style="zoom:50%;" />
->     
+>
 >     1. 输入：CamFlow 提供的流式日志数据
 >         - CamFlow：一个运行在 LSM 框架上的信息流追踪工具，类似 Linux Audit、Windows ETW 等，为 UNICORN 提供流式的数据出处日志
 >     2. 构建一个流式的直方图，代表系统的执行历史信息
@@ -25,3 +25,10 @@
 >     3. 周期性计算一个 graph sketch，具有固定大小，方便后续聚类
 >         - 使用常数时间复杂度的 HistoSketch 计算
 >     4. 将这些 graph sketch 作为输入训练异常检测模型，并在实际应用中不再更新该模型，防止被毒化
+>
+> ---
+>
+> ###### 待确定的内容
+>
+> - 输出到底是什么？
+>     - 目前的理解是在检测到异常 graph sketch 时上报
