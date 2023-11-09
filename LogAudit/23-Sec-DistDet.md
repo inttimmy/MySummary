@@ -7,7 +7,7 @@
 > - 会议/期刊：<u>USENIX Security 2023</u>
 >
 > - 作者
->     <left><img src="all_Attachments/image-20231030182722877.png" alt="image-20231030182722877" style="zoom: 33%;" />
+>     <left><img src="assets/image-20231030182722877.png" alt="image-20231030182722877" style="zoom: 33%;" />
 >
 > ---
 >

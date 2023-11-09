@@ -5,7 +5,7 @@
 > - 标题：<u>SoK: History is a Vast Early Warning System: Auditing the Provenance of System Intrusions</u>
 > - 会议/期刊：<u>S&P 2023</u>
 > - 作者
->     <left><img src="all_Attachments/image-20231030182903780.png" alt="image-20231030182903780" style="zoom:33%;" />
+>     <left><img src="assets/image-20231030182903780.png" alt="image-20231030182903780" style="zoom:33%;" />
 >
 > ---
 >
@@ -20,7 +20,7 @@
 
 > ###### 五个层次图示
 >
-> <left><img src="all_Attachments/image-20231010172850310.png" alt="image-20231010172850310" style="zoom: 40%;" />
+> <left><img src="assets/image-20231010172850310.png" alt="image-20231010172850310" style="zoom: 40%;" />
 >
 > ---
 >

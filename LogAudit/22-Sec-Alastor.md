@@ -8,7 +8,7 @@
 >
 > - 作者
 >     
->     <left><img src="all_Attachments/image-20231106211311418.png" alt="image-20231106211311418" style="zoom:33%;" />
+>     <left><img src="assets/image-20231106211311418.png" alt="image-20231106211311418" style="zoom:33%;" />
 >
 >
 > ---

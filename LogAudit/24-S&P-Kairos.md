@@ -7,7 +7,7 @@
 > - 会议/期刊：<u>S&P 2024</u>
 >
 > - 作者
->     <left><img src="all_Attachments/image-20231030170653728.png" alt="image-20231030170653728" style="zoom:33%;" />
+>     <left><img src="assets/image-20231030170653728.png" alt="image-20231030170653728" style="zoom:33%;" />
 >
 > ---
 >
@@ -21,7 +21,7 @@
 >     - attack reconstruction：重建攻击活动，方便管理员调查
 >
 > - 四大组件：
->     <left><img src="all_Attachments/image-20231030181523704.png" alt="image-20231030181523704" style="zoom:50%;" />
+>     <left><img src="assets/image-20231030181523704.png" alt="image-20231030181523704" style="zoom:50%;" />
 >
 >     - Graph Construction and Representation
 >         - 根据一个固定的时间窗口划分 graph

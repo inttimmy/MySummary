@@ -7,13 +7,13 @@
 > - 会议/期刊：<u>USENIX security 2022</u>
 >
 > - 作者
->    <left><img src="all_Attachments/image-20231015205514444.png" alt="image-20231015205514444" style="zoom:33%;" />
+>    <left><img src="assets/image-20231015205514444.png" alt="image-20231015205514444" style="zoom:33%;" />
 >
 > ---
 >
 > ###### 概述
 >
-> <left><img src="all_Attachments/image-20231015205815009.png" alt="image-20231015205815009" style="zoom: 50%;" />
+> <left><img src="assets/image-20231015205815009.png" alt="image-20231015205815009" style="zoom: 50%;" />
 >
 > - 开发了名为 DepImpact 的分析框架，在传统后向因果分析产生的完整因果图中识别出 Critical Component（与 POI 相关性更强的部分），即提取出原始的、巨大的因果图中真正关键的信息，辅助攻击调查；
 >    1. 从 POI 开始进行传统的后向因果分析，产生一个初始的因果图 $P$ ；
