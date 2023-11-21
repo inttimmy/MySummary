@@ -13,7 +13,7 @@
 >
 > ###### 概述
 >
-> - learning-based、图级的 APT 检测
+> - learning-based、Detection layer、图级的检测
 >     <left><img src="assets/image-20231030181818287.png" alt="image-20231030181818287" style="zoom:50%;" />
 >
 >     1. 输入：CamFlow 提供的流式日志数据
@@ -26,9 +26,3 @@
 >         - 使用常数时间复杂度的 HistoSketch 计算
 >     4. 将这些 graph sketch 作为输入训练异常检测模型，并在实际应用中不再更新该模型，防止被毒化
 >
-> ---
->
-> ###### 待确定的内容
->
-> - 输出到底是什么？
->     - 目前的理解是在检测到异常 graph sketch 时上报
