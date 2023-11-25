@@ -1,4 +1,4 @@
-# DepComm：基于社群划分的
+# DepComm：划分社群辅助攻击调查
 
 > ###### 来源
 >
@@ -40,3 +40,5 @@
 >                 3. InfoPath 中的事件独特性更高的优先
 >                     - File events that appear in fewer communities are more likely to represent the major activities in the community
 >                 4. 时间跨度与该社群更相近的 InfoPath 优先
+>
+> - 主要还是社群的生成和摘要，需要提供 POI、与其它攻击调查技术（找出 attack-related events）配合使用，目的是增强攻击报告的可读性
