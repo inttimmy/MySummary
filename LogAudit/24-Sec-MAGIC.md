@@ -22,8 +22,8 @@
 >         - 缺点：性能开销大（需要执行基于序列或图的算法）导致不实用
 >
 > - MAGIC：learning-based，自监督的 APT 检测，通过设计用户反馈通道来为半监督甚至全监督提供支持
->
->     <left><img src="assets/image-20231125225337392.png" alt="image-20231125225337392" style="zoom:50%;" />
+>    <left><img src="assets/image-20231125225337392.png" alt="image-20231125225337392" style="zoom:50%;" />
+>     
 >     - Graph Construction：将成批的日志（逐 batch）转化为出处图，并进行 reduction
 >         - 生成初始嵌入：对日志进行 parse，并根据日志中的分类属性，为边生成一个初始嵌入，相似的日志将具有相同的边的初始嵌入
 >             - 如：read 被编码为 $(0,0,1,0)$ 而 write 被编码为 $(0,0,1,1)$ 详见 Figure 3
