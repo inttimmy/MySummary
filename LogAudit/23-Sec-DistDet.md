@@ -38,7 +38,7 @@
 >
 > ###### 特别的
 >
-> - 作者提到的一些，针对异常检测方法的误报所存在的共性的 “观察”：
+> - 作者提到的一些，针对异常检测方法的误报所存在的共性的 “观察”（Domain Knowledge）：
 >     - The alarms representing the same behaviors will be repetitively reported over a period of time;
 >     - Many false alarms are related to the benign behaviors triggered by semantically similar commands;
 >     - The contexts for these alarms are generally known to represent benign behaviors.

@@ -31,8 +31,8 @@
 > - Graph Construction and Representation
 >     - 根据一个固定的时间窗口划分 graph
 > - Graph Learning：使用 encoder-decoder 架构重建边缘
->     - 在训练阶段使用良性日志训练，致力于减小重构误差
->     - 在部署后，每个边缘的实际重构误差将会作为异常检测以及 attack reconstruction 的基础
+>     - 训练阶段：使用良性日志训练，致力于减小重构误差
+>     - 部署阶段：每个边缘的实际重构误差将会作为异常检测以及 attack reconstruction 的基础
 > - Anomaly Detection
 >     - 根据重构误差识别可疑节点组合
 >     - 具有可疑节点的时间窗口将会排起来作为一个可疑队列

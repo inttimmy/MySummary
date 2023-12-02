@@ -22,7 +22,6 @@
 >         - 直方图中的每一个 “直方” 描述了图中的每一个独特的 “子结构”（通过计算并统计标签实现？Author-adapted Weisfeiler-Lehman sub-tree graph kernel algorithm）
 >         - 周期性地减小那些与近期事件无因果关系的直方图元素的影响
 >         - 无需在静态的出处图上运行，而是在流式的图数据上实时构建
->     3. 周期性计算一个 graph sketch，具有固定大小，方便后续聚类
+>     3. 周期性计算一个 graph sketch，是对直方图的固定大小的 embedding，方便后续聚类
 >         - 使用常数时间复杂度的 HistoSketch 计算
 >     4. 将这些 graph sketch 作为输入训练异常检测模型，并在实际应用中不再更新该模型，防止被毒化
->
